@@ -3,7 +3,7 @@ function login(username, password) {
         return "Authentication successful";
     }
 
-    return "Authentication failed";
+    return "Invalid username or password";
 }
 
 console.log(login("admin", "1234"));
